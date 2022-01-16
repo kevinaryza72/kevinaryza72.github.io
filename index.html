@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+   <link rel="stylesheet" href="https://icons8.com/icon/G9XXzb9XaEKX/spotify">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    
+
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"><b style="color: rgb(219, 108, 34);">King</b><b style="color: rgb(79, 138, 228);">Vinz</b></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"> <i class="uil uil-home nav__icon"></i> Home </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link"> <i class="uil uil-user-square nav__icon"></i> About </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"> <i class="uil uil-chart-bar nav__icon"></i> Skills </a>
+            </li>
+            <li class="nav__item">
+              <a href="#project" class="nav__link"> <i class="uil uil-rocket nav__icon"></i> Projects </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link"> <i class="uil uil-newspaper nav__icon"></i></i> Article </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link"> <i class="uil uil-message nav__icon"></i> Contact </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+
+        <!--Theme change button-->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a href="https://www.facebook.com/kevin.aryza/" target="_blank" class="home__social-icon">
+                <i class="uil uil-facebook"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/kevinaryza" target="_blank" class="home__social-icon">
+                <i class="uil uil-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/kevinaryza/" target="_blank" class="home__social-icon">
+                <i class="uil uil-instagram-alt"></i>
+              </a>
+              <a href="https://github.com/kevinaryza72" target="_blank" class="home__social-icon">
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                      -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                  <image class="home__blob-img" x="12" y="18" xlink:href="assets/img/ad.png" />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'am Kevin👋</h1>
+              <p class="home__description">A student at Pakuan University and a Software Developer with strong Frontend Web Development skills, focused on User Interactivity and User Experience.</p>
+              <a href="#contact" class="button button--flex">
+                Contact Me <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle"></span>
+        
+        <div class="about__container container grid"> 
+          <div class="about__data">
+            <p class="about__description">My name is Kevin Aryza Firdaus, I was born in Madiun, East Java. If you don't know Madiun, you've probably heard of <a href="https://id.wikipedia.org/wiki/Industri_Kereta_Api_(perusahaan)"><b>INKA (Industri Kereta Api)</b></a>. I am 23 years old passionate about Computer Science and Web Development, I am very passionate about future Web Technologies, love to learn new things.
+              <h4 class="section__hobbies">Hobbies</h4>
+              I'm not in front of my laptop all day, sometimes I go out and get some fresh air, then hang out with friends, and sometimes😐</p><br>
+            
+              <div class="about__info">
+                <div>
+                    <span class="about__info-title">📺</span>
+                    <span class="about__info-name"><h4>Watch Movies</h4></span>
+                </div>
+                <div>
+                    <span class="about__info-title">⚽</span>
+                    <span class="about__info-name"><h4>Playing Futsal</h4></span>
+                </div>
+                <div>
+                    <span class="about__info-title">🎮</span>
+                    <span class="about__info-name"><h4>Playing Game</h4></span>
+                </div>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TECHNICAL SKILLS ====================-->
+      <section class="skills section" id="skills">
+          <h2 class="section__title">Technical Skills</h2>
+          <span class="section__subtitle"></span>
+         
+          <div class="skills__container container grid">
+            <p>Some of my Technical Skills in Web Development. To be honest, the first programming language I learned was Java, when I was in semester two. But apparently after semester four, I learned more about the Frontend Environment, which are HTML, CSS, PHP and JavaScript.</p> <br>
+            <div>
+            <!--==================== SKILLS 1====================-->
+            <div class="skills__content skills__open">
+                <div class="skills__header">
+              <i class="uil uil-brackets-curly skills__icon"></i>
+              <div>
+                  <h1 class="skills__title">Frontend Developer</h1>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <img src="assets/img/html-5.png">
+                          &nbsp;<h4>HTML</h4>
+                    </div>
+                </div>
+                
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <img src="assets/img/css-3.png">
+                          &nbsp;<h4>CSS</h4>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <img src="assets/img/js.png">
+                          &nbsp;<h4>JavaScript</h4>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <img src="assets/img/react.png">
+                          &nbsp;<h4>React</h4>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <!--==================== SKILLS 2====================-->
+          <div class="skills__content skills__close">
+              <div class="skills__header">
+             <i class="uil uil-server-network-alt skills__icon"></i>
+            <div>
+                <h1 class="skills__title">Backend Developer</h1>
+            </div>
+            <i class="uil uil-angle-down skills__arrow"></i>
+          </div>
+
+          <div class="skills__list grid">
+              <div class="skills__data">
+                  <div class="skills__titles">
+                      <img src="assets/img/php.png">
+                        &nbsp;<h4>PHP</h4>
+                  </div>
+              </div>
+              
+              <div class="skills__data">
+                  <div class="skills__titles">
+                      <img src="assets/img/mysql.png">
+                        &nbsp;<h4>MYSQL</h4>
+                  </div>
+              </div>
+
+              <div class="skills__data">
+                  <div class="skills__titles">
+                      <img src="assets/img/python.png">
+                        &nbsp;<h4>Python</h4>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <!--==================== SKILLS 3====================-->
+        <div class="skills__content skills__close">
+            <div class="skills__header">
+            <i class="uil uil-palette skills__icon"></i>
+          <div>
+              <h1 class="skills__title">Designer</h1>
+          </div>
+          <i class="uil uil-angle-down skills__arrow"></i>
+        </div>
+        <div class="skills__list grid">
+            <div class="skills__data">
+                <div class="skills__titles">
+                    <img src="assets/img/figma.png">
+                      &nbsp;<h4>Figma</h4>
+                </div>
+            </div>
+            
+            <div class="skills__data">
+                <div class="skills__titles">
+                    <img src="assets/img/ai.png">
+                      &nbsp;<h4>Illustrator</h4>
+                </div>
+            </div>
+
+            <div class="skills__data">
+                <div class="skills__titles">
+                    <img src="assets/img/pr.png">
+                      &nbsp;<h4>Premiere</h4>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+      <!--==================== QUALIFICATION ====================-->
+
+      <!--==================== PORTFOLIO PROJECT ====================-->
+        <section class="portfolio section" id="project">
+              <h2 class="section__title">Projects</h2>
+              <span class="section__subtitle"></span>
+              
+              <div class="portfolio__container container swiper">
+                <div class="swiper-wrapper">
+           <!--==================== PORTFOLIO PROJECT 1 ====================-->
+                  <div class="portfolio__content grid swiper-slide">
+                      <img src="assets/img/1.png" alt="" class="portfolio__img">
+                  
+                    <div class="portfolio__data">
+                      <h3 class="portfolio__title">Web Store</h3>
+                      <p class="portfolio__description">A simple clothing web store with HTML, CSS, PHP & Bootstrap</p>
+                  <a href="#" class="button button--flex button--small portfolio__button">
+                      View
+                      <i class="uil uil-arrow-right button__icon"></i></a>
+                  </div>
+                </div>
+            <!--==================== PORTFOLIO PROJECT 2 ====================-->
+                  <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/img/3.png" alt="" class="portfolio__img">
+    
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">Absent Web App</h3>
+                    <p class="portfolio__description">A simple employee absent web application made with PHP Mysql & Bootstrap</p>
+                <a href="#" class="button button--flex button--small portfolio__button">
+                    View
+                    <i class="uil uil-arrow-right button__icon"></i></a>
+                </div>
+              </div>
+            </div>
+
+             <!--================= Add Arrows =================--> 
+             <div class="swiper-button-next">
+              <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+           <!--================ Add Pagination ===============-->
+        <div class="swiper-pagination"></div>
+          </div>
+        </section>
+      <!--==================== ARTICLE ====================-->
+      <section class="services section" id="services">
+         <h2 class="section__title">Article</h2>
+         <span class="section__subtitle"></span>
+
+         <div class="services__container container grid">
+            <!--==================== ARTICLE 1 ====================-->
+         <div class="services__content">
+           <div>
+             <h3 class="services__title">Apa itu NTF marketplace?</h3>
+             <p>Apa itu NFT marketplace dan bagaimana cara kerjanya? Simak selengkapnya dalam artikel berikut ini!</p>
+           </div>
+           <a href="https://pintu.co.id/blog/apa-itu-nft-marketplace-dan-bagaimana-cara-kerjanya" target="_blank"><i class="uil uil-globe services__icon"></i></a>
+         </div>
+
+          <!--==================== ARTICLE 2 ====================-->
+          <div class="services__content">
+            <div>
+              <h3 class="services__title">Membuat jam digital dengan JavaScript</h3>
+              <p>Kita bisa membuat jam digital dengan javascript dan caranya pun sangat mudah</p>
+            </div>
+            <a href="https://www.malasngoding.com/membuat-jam-analog-dan-digital-dengan-javascript/" target="_blank"><i class="uil uil-globe services__icon"></i></a>
+          </div>
+
+            <!--==================== ARTICLE 3 ====================-->
+            <div class="services__content">
+              <div>
+                <h3 class="services__title">Wisata di Bogor yang kekinian & Instagramable</h3>
+                <p>Kota hujan dengan beribu keindahan. Kota berhawa sejuk ini telah berkembang menjadi kawasan wisata dengan sederet pesona.</p>
+              </div>
+              <a href="https://www.merdeka.com/gaya/tempat-wisata-di-bogor-kln.html" target="_blank"><i class="uil uil-globe services__icon"></i></a>
+            </div>
+
+          <!--==================== ARTICLE 4 ====================-->
+          <div class="services__content">
+            <div>
+              <h3 class="services__title">Apa itu Tokenomics Crypto?</h3>
+              <p>Apa itu tokenomics, komponen-komponen, serta perannya dalam investasimu? Simak selengkapnya dalam artikel berikut ini!</p>
+            </div>
+            <a href="https://pintu.co.id/blog/apa-itu-tokenomics-crypto" target="_blank"><i class="uil uil-globe services__icon"></i></a>
+          </div>
+          </div>
+      </section> 
+      <!--==================== PROJECT IN MIND ====================-->
+      <!--==================== TESTIMONIAL ====================-->
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+          <h2 class="section__title">Let's Connect!</h2>
+          <span class="section__subtitle"></span>
+        
+          <div class="contact__container container grid">
+            <div>
+              <div class="contact__information">
+                <i class="uil uil-envelope contact__icon"></i>
+              
+                <div>
+                  <h3 class="contact__title">Email</h3>
+                  <span class="contact__subtitle">Kevinaryza72@gmail.com</span>
+                </div>
+              </div>
+
+              <div class="contact__information">
+                <i class="uil uil-linkedin contact__icon"></i>
+      
+                <div>
+                  <h3 class="contact__title">Linkedin</h3>
+                  <span class="contact__subtitle">linkedin.com/in/kevinaryza</span>
+                </div>
+              </div>
+
+              <div class="contact__information">
+                <i class="uil uil-map-marker contact__icon"></i>
+      
+                <div>
+                  <h3 class="contact__title">Location</h3>
+                  <span class="contact__subtitle">Bogor, West Java</span>
+                </div>
+              </div>
+            </div>
+
+            <form action="" name="submit-to-google-sheet" class="contact__form grid">
+              <div class="contact__input grid">
+                <div class="contact__content">
+                  <label for="" class="contact__label">Name</label>
+                  <input name="nama" type="text" class="contact__input">
+                </div>
+                </div>
+
+                <div class="contact__content">
+                  <label for="" class="contact__label">Email</label>
+                  <input name="email" type="email" class="contact__input">
+                </div>
+              
+              <div class="contact__content">
+                <label for="" class="contact__label">Message</label>
+                <textarea name="pesan" id="" cols="0" rows="7" class="contact__input"></textarea>
+              </div>
+
+              <div>
+                <button onclick="myFunction()" type="submit" class="button btn-kirim button--flex">
+                  Send Message
+                <i class="uil uil-message button__icon"></i>
+                </button>
+               
+              </div>
+            </div>
+            </form>
+          </div>
+      </section>
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <span class="footer__subtitle">For business inquiry, please email me to</span>
+            <h4><a href="mailto:kevinaryza72@gmail.com" style="color:cornsilk;">Kevinaryza72@gmail.com</a></h4>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#about" class="footer__links">About</a>
+            </li>
+            <li>
+              <a href="#project" class="footer__links">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__links">Contact</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a href="https://www.facebook.com/kevin.aryza/" target="_blank" class="footer__social">
+              <i class="uil uil-facebook-f"></i>
+            </a>
+            
+            <a href="https://www.instagram.com/kevinaryza/" target="_blank" class="footer__social">
+              <i class="uil uil-instagram"></i>
+            </a>
+            
+            <a href="https://github.com/kevinaryza72" target="_blank" class="footer__social">
+              <i class="uil uil-github"></i>
+            </a>
+          </div>
+          <div class="footer__sportify">
+            <a href="https://open.spotify.com/playlist/4SIYE9M7VJnWwRdMSzlca3?si=W-hRWtH8TCuWcslXFLltdA&utm_source=copy-link" target="_blank">
+              <img src="https://img.icons8.com/fluency/48/000000/spotify.png"/>
+            </a>
+          </div> 
+        </div>
+
+        <p class="footer__copy">Made With <b style="color: crimson;">❤</b> by Kevin Aryza</p>
+      </div>
+    </footer>
+  
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+
+
+     <!--==================== ALERT MESSAGE ====================-->
+    <script>
+      function myFunction() {
+        alert("Pesan Berhasil Terkirim!!");
+      }
+      </script>
+    
+
+   <!--===================== SUBMIT CONTACT FORM GOOGLE SHEET ======================-->
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxOxi5lQoz2rylRst4XF2Kfp9qUyFEObHsBrEJ_mQ2qOPMbU0IQWjdf3tSoVL0Y7bbc/exec'
+      const form = document.forms['submit-to-google-sheet'];
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            form.reset();
+          console.log('Success!', response);
+        })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
